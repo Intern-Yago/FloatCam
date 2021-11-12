@@ -1,0 +1,20 @@
+{
+  "name": "copy_mini-video-me",
+  "version": "1.0.0",
+  "description": "Com este programa, não tenho a inteção de copiar o Mayk Brito da RocketSeat, apenas comece recentemente no mundo da programação e estou ampliando meu campo de conhecimento",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Intern-Yago/copy_mini-video-me.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Intern-Yago/copy_mini-video-me/issues"
+  },
+  "homepage": "https://github.com/Intern-Yago/copy_mini-video-me#readme"
+}
