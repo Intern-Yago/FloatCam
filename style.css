@@ -35,3 +35,9 @@ video {
         height: 64vw
     }
 }
+@media(max-height: 515px){
+    #video-container{
+        width: 100vh;
+        height: 100vh;
+    }
+}
