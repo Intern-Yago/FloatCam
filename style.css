@@ -3,12 +3,26 @@
     margin: 0;
 }
 body{
-    overflow: hidden;
+    overflow-x: hidden;
     height: 100vh;
+    perspective: 1000px;
 }
 body, #video-grid {
-    -webkit-app-region: drag; /* move window */
+    -webkit-app-region: drag;
   }
 button {
-    -webkit-app-region: nodrag; /* window buttons */
+    -webkit-app-region: nodrag; 
+}
+#video-container {
+    transform: rotateY(180deg);
+    overflow: hidden;
+    width: 100vw; 
+    height: 100vw;
+    border-radius: 50%;
+}
+
+video {
+    width: 150%;
+    height: auto;
+    transform: translate(-20%, 0%); 
 }
