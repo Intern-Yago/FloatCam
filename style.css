@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow: hidden;
+    height: 100vh;
+}
+body, #video-grid {
+    -webkit-app-region: drag; /* move window */
+  }
+button {
+    -webkit-app-region: nodrag; /* window buttons */
+}
