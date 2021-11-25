@@ -1,23 +1,24 @@
 {
-  "name": "copy_mini-video-me",
+  "name": "floatcam",
   "version": "1.0.0",
-  "description": "Com este programa, não tenho a inteção de copiar o Mayk Brito da RocketSeat, apenas comece recentemente no mundo da programação e estou ampliando meu campo de conhecimento",
+  "description": "Programa inspirado no mini-video-me do Mayk Brito da Rocketseat",
   "main": "electron/index.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "npx electron-packager . --icon electron/logo.png --overwrite"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Intern-Yago/copy_mini-video-me.git"
+    "url": "git+https://github.com/Intern-Yago/FloatCam.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Intern-Yago/copy_mini-video-me/issues"
+    "url": "https://github.com/Intern-Yago/FloatCam/issues"
   },
-  "homepage": "https://github.com/Intern-Yago/copy_mini-video-me#readme",
-  "dependencies": {
-    "electron": "^15.3.1"
+  "homepage": "https://github.com/Intern-Yago/FloatCam#readme",
+  "devDependencies": {
+    "electron": "^16.0.2"
   }
 }
